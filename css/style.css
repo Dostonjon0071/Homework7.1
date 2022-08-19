@@ -1,0 +1,75 @@
+body{
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.conteiner{
+    width: 1600px;
+    height: 700px;
+    margin: 0;
+    padding: 0px 10px;
+}
+.navigation{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_menu{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+
+}
+.header_logo{
+    justify-content: left;
+}
+.nav_link{
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid ;
+    text-decoration: white  ;
+    
+    
+}
+a:active{
+    color: aqua;
+}
+.hero{
+    display: flex;
+     margin: 126px;
+}
+
+.hero__area{
+    display: flex;
+    word-wrap: normal;
+
+}
+.theme{
+    gap: 6px;
+}
+h1:hover{
+    font-size: 72px;
+    
+    font-family: 'Fredoka One';
+    
+}
+.hero_logo{
+    background-image: url(../images/Ellipse\ 18.svg);
+
+}
+.hero_link{
+    width: 165px;
+    height: 49px;
+    background-repeat:no-repeat;
+
+}
